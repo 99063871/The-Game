@@ -200,8 +200,8 @@ escape = escape.toLowerCase();
 							else if(SoortFietsen == "wielrennen"){
 								alert("Na 20 km gefietst te hebben stop je.")
 								alert("Je loopt naar de douches.")
-								alert("Terwijl je aan het douchen bent laat je perongelijk je zeep vallen.")
-								document.write("Je hebt het opgegeven voordat er iets kon gebeuren, refresh de pagina om te herstarten.")
+								alert("Terwijl je aan het douchen bent glij je uit.")
+								document.write("Je bent  hard gevallen gevallen, refresh de pagina om te herstarten.")
 							}
 					}
 			}
