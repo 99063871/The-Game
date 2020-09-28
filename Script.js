@@ -185,7 +185,7 @@ escape = escape.toLowerCase();
 								alert("Na 20 km gefietst te hebben stop je.")
 								alert("Je loopt naar de douches.")
 								alert("Terwijl je aan het douchen bent laat je perongelijk je zeep vallen")
-								document.write("Je hebt het opgegeven refresh de pagina om te herstarten.")
+								document.write("Je hebt het opgegeven voordat er iets kon gebeuren, refresh de pagina om te herstarten.")
 							}
 					}
 			}
@@ -240,7 +240,7 @@ escape = escape.toLowerCase();
 								alert("Je loopt terug naar je cel.")
 								alert("Je had niet door dat je achtervolgt werd door bewakers.")
 								alert("Zodra je in je cel komt wordt er tegen je gezegd dat je naar een beter beveiligde cel verplaatst wordt")
-								document.write("Je zal nooit uit deze cel komen, na "  + number + " jaar/jaren ben je de gevangenis uitgekomen.")
+								document.write("Je zal nooit uit deze cel komen, na "  + number + " jaar ben je de gevangenis uitgekomen.")
 							}
 					}
 					else if(Bewakers == "nee"){
@@ -258,7 +258,7 @@ escape = escape.toLowerCase();
 							else if(BewakerDood == "nee"){
 								alert("Je loopt langs de bewaker")
 								alert("Je word neergeslagen...")
-								document.write("Ik denk niet dat je daar naartoe mocht. je word naar een beter beveiligde cel verplaatst. Na " + number + " Jaar/Jaren word je vrijgelaten.")
+								document.write("Ik denk niet dat je daar naartoe mocht. je word naar een beter beveiligde cel verplaatst. Na " + number + " Jaar word je vrijgelaten.")
 							}
 					}
 			}
