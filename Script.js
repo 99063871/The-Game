@@ -170,24 +170,6 @@ escape = escape.toLowerCase();
 						alert("Je bent nu al 5 km aan het hardlopen tot er iemand op je af loopt en de stekker van je apparaat eruit haalt")
 						document.write("Je bent gevallen op je nek, je bent dood refresh de pagina om de herstarten")
 					}
-					else if(FitnessBinnen == "fietsen"){
-						var SoortFietsen = promt("Welke soort fietsen ga je doen? kies uit wielrennen of mountainbiken")
-							if(SoortFietsen == "mountainbiken"){
-								alert("Je hebt een goede keuze gemaakt!")
-								alert("Er komen een paar gevangene naar je toe lopen en zeggen: kom met ons mee.")
-								alert("Je loopt met ze mee.")
-								alert("Ze stoppen met lopen, je staat bij een ingang van een cel.")
-								alert("Iemand tilt het bed op en je ziet een gat.")
-								alert("Ze zeggen dat je in het gat moet en dat je dan zo naar buiten loopt")
-								document.write("Het is je gelukt je bent uit de gevangenis!!!")
-							}
-							else if(SoortFietsen == "wielrennen"){
-								alert("Na 20 km gefietst te hebben stop je.")
-								alert("Je loopt naar de douches.")
-								alert("Terwijl je aan het douchen bent laat je perongelijk je zeep vallen")
-								document.write("Je hebt het opgegeven voordat er iets kon gebeuren, refresh de pagina om te herstarten.")
-							}
-					}
 			}
 	}
 				}
@@ -219,7 +201,7 @@ escape = escape.toLowerCase();
 								alert("Na 20 km gefietst te hebben stop je.")
 								alert("Je loopt naar de douches.")
 								alert("Terwijl je aan het douchen bent laat je perongelijk je zeep vallen.")
-								document.write("Je hebt het leven opgegeven refresh de pagina om te herstarten.")
+								document.write("Je hebt het opgegeven voordat er iets kon gebeuren, refresh de pagina om te herstarten.")
 							}
 					}
 			}
