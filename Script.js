@@ -58,6 +58,8 @@ escape = escape.toLowerCase();
 																			alert("Hij draaide zich om bedankte je voor het schuurpapier en een vriend van hem stak je neer.")
 																			document.write("Je bent doodgegaan refresh de pagina om te herstarten.")
 																		}
+															
+
 																			else if(Volg == "nee"){
 																				alert("Hij loopt weg met je schuurpapier.")
 																				var AVolg = prompt("Loop je achter hem aan om je schuurpapier terug te pakken? kies ja of nee")
@@ -78,12 +80,13 @@ escape = escape.toLowerCase();
 																	document.write("Het is je gelukt je bent uit de gevangenis!!!")
 																}	
 														}
-														else if(BuitenDoen == "basketballen."){
+														else if(BuitenDoen == "basketballen"){
 															alert("Je gaat basketballen.")
 															alert("Tijdens het basketballen kom je in een ruzie.")
 															alert("Je wordt neergestoken.")
 															document.write("Je bent doodgegaan refresh de pagina om te herstarten.")
 														}
+														
 												}
 												else if(Keuze != "schuurpapier"){
 													document.write("je bent gepakt refresh de pagina om te herstarten.")
